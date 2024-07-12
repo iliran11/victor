@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-const folderPath = './images/pro-new';
+const folderPath = './images/home-new';
 const newWidth = 500;
 
 fs.readdir(folderPath, (err, files) => {
